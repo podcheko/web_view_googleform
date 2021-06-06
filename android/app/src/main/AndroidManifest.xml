@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.web_view_googleform">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="web_view_googleform"
         android:icon="@mipmap/ic_launcher">

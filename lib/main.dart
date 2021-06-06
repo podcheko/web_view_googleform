@@ -38,6 +38,8 @@ class WebViewExampleState extends State<WebViewExample> {
     return Scaffold(
       appBar: AppBar(),
       body: WebView(
+        gestureNavigationEnabled: true,
+        javascriptMode: JavascriptMode.unrestricted,
         initialUrl:
             'https://docs.google.com/forms/d/e/1FAIpQLSfRULF_wt3AfwrhkB0wivuRCdcbIYOkl7ETidQFX6SI1J3O0w/viewform',
       ),
